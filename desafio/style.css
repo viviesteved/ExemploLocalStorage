@@ -6,23 +6,23 @@
 }
 
 body {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #ff64b9, #b82576);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-/* APP CONTAINER */
+
 .app {
   background: white;
   width: 350px;
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 25px rgb(100, 11, 51);
 }
 
-/* HEADER */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -34,7 +34,6 @@ header h1 {
   font-size: 20px;
 }
 
-/* INPUT */
 .input-area {
   display: flex;
   gap: 10px;
@@ -45,7 +44,7 @@ input {
   flex: 1;
   padding: 10px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #550835;
 }
 
 button {
@@ -55,13 +54,13 @@ button {
   cursor: pointer;
 }
 
-/* BOTÃO ADD */
+
 #btnAdicionar {
-  background: #667eea;
+  background: #ea66a4;
   color: white;
 }
 
-/* FILTROS */
+
 .filtros {
   display: flex;
   justify-content: space-between;
@@ -74,7 +73,7 @@ button {
   background: #eee;
 }
 
-/* LISTA */
+
 li {
   background: #f5f5f5;
   padding: 10px;
@@ -86,19 +85,18 @@ li {
   cursor: pointer;
 }
 
-/* CONCLUÍDA */
+
 li.concluida {
   text-decoration: line-through;
   opacity: 0.6;
 }
 
-/* BOTÕES */
+
 .acoes button {
   margin-left: 5px;
   background: transparent;
 }
 
-/* DARK MODE */
 body.dark {
   background: #121212;
 }
